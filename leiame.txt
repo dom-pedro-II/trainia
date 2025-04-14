@@ -1,0 +1,99 @@
+📌 main.dart
+Ponto de entrada da aplicação. Define o MaterialApp, rotas e tela inicial (login). Usa Scaffold e navegação básica.
+
+🧩 models/ – Modelos de Dados
+✅ user_model.dart
+Representa os dados do usuário:
+
+Nome, e-mail, senha (em hash), idade, altura e peso.
+
+Permite conversão entre Map e UserModel para salvar/carregar via JSON.
+
+✅ treino_model.dart
+Representa um treino semanal:
+
+Um Map<String, String> com os dias da semana e suas respectivas descrições de treino.
+
+🖥️ screens/ – Telas da Aplicação
+✅ login_screen.dart
+Tela de login com campos de e-mail e senha. Autentica o usuário com os dados salvos em JSON local.
+
+✅ cadastro_screen.dart
+Tela para cadastro de um novo usuário. Ao salvar, a senha é convertida em hash SHA-256 e armazenada em JSON.
+
+✅ home_screen.dart
+Tela inicial após login, com botões para:
+
+Preencher formulário de treino
+
+Ver histórico
+
+Sair
+
+✅ formulario_treino_screen.dart
+Formulário onde o usuário informa:
+
+Modalidade, objetivo, equipamentos, nível e horários disponíveis por dia da semana. Esses dados são enviados para a IA (Gemini) gerar o plano de treino.
+
+✅ treino_screen.dart
+Exibe o plano de treino retornado pela IA. Permite salvar esse plano no histórico.
+
+✅ historico_screen.dart
+Lista os treinos anteriores salvos localmente. Cada treino é exibido como um card expansível, separado por semana.
+
+🛠️ services/ – Lógica de Negócio e Armazenamento
+✅ auth_service.dart
+Gerencia login e cadastro.
+
+Valida credenciais e salva usuários no JSON (user_data.json).
+
+✅ storage_service.dart
+Lida com leitura e escrita de arquivos.
+
+Usa path_provider para garantir salvamento no diretório apropriado.
+
+✅ treino_service.dart
+Monta o prompt com os dados do usuário e envia para a IA (Gemini).
+
+Retorna a resposta JSON com o plano de treino semanal.
+
+✅ historico_service.dart
+Lê e grava treinos no arquivo historico_treinos.json.
+
+✅ gemini_service.dart
+Simula a resposta da IA.
+
+Pode futuramente ser adaptado para usar a API oficial do Google Gemini com http.
+
+🧰 utils/ – Utilitários
+✅ constants.dart
+Constantes globais do projeto (como nome do app).
+
+✅ hash_helper.dart
+Usa crypto para gerar hash SHA-256 das senhas antes de salvar.
+
+✅ file_helper.dart
+Abstrai a leitura e escrita de arquivos JSON com StorageService.
+
+Usado por auth_service, historico_service e outros.
+
+🧠 Como tudo funciona
+Cadastro/Login:
+Usuário se cadastra com dados básicos. A senha é criptografada e salva em user_data.json.
+
+Formulário de Treino:
+Usuário preenche preferências e horários. Esses dados são transformados em um prompt e enviados para a IA.
+
+Geração de Treino:
+A IA responde com um JSON contendo sugestões de treino por dia. O plano é exibido e pode ser salvo.
+
+Histórico:
+Treinos gerados são armazenados localmente e exibidos no histórico.
+
+📦 Armazenamento Local
+Todos os dados são persistidos em arquivos .json, sem banco de dados. Arquivos usados:
+
+user_data.json – Dados dos usuários
+
+historico_treinos.json – Treinos salvos
+
