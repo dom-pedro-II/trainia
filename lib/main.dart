@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
+import 'package:provider/provider.dart';
+import 'models/user_data.dart';
+import 'screens/personal_data_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Trainia',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: const LoginScreen(),
+    return ChangeNotifierProvider(
+      create: (_) => UserData(),
+      child: MaterialApp(title: 'Cadastro Atleta', home: PersonalDataScreen()),
     );
   }
 }

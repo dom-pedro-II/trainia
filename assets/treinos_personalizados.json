@@ -1,0 +1,278 @@
+{
+  "iniciante": {
+    "Ciclismo": {
+      "Performance": {
+        "seg": {
+          "op1": "L (1h): L (45 min) + Alongamento (15 min)",
+          "op2": "F.C. (1h30): F.C. (1h) + L (30 min)",
+          "op3": "B (2h): B (1h30) + FI (30 min - Ex: 3x5 min em subida leve)",
+          "op4": "B (2h30): B (2h) + L (30 min)"
+        },
+        "ter": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B (1h30): B (1h) + L (30 min)",
+          "op3": "INT.C. (1h30): INT.C. (30 min - Ex: 5x1 min sprint, 2 min descanso) + L (1h)",
+          "op4": "FI (2h): FI (45 min - Ex: 4x5 min em cadência baixa no plano) + B (1h15)"
+        },
+        "qua": {
+          "op1": "F.C. (1h): F.C. (1h)",
+          "op2": "L (1h30): L (1h30)",
+          "op3": "B (2h): B (1h30) + FI (30 min - Ex: 4x3 min força na subida)",
+          "op4": "B (2h30): B (2h) + F.C. (30 min - Foco em core)"
+        },
+        "qui": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B (1h30): B (1h30)",
+          "op3": "INT.C. (1h30): INT.C. (45 min - Ex: 8x30s sprint com 1 min descanso) + L (45 min)",
+          "op4": "FI (2h): FI (1h - Ex: 3x10 min simulação de contra-relógio) + B (1h)"
+        },
+        "sex": {
+          "op1": "L (1h): L (1h)",
+          "op2": "F.C. (1h30): F.C. (1h) + Alongamento (30 min)",
+          "op3": "B (2h): B (1h30) + L (30 min)",
+          "op4": "B (2h30): B (2h) + F.C. (30 min)"
+        },
+        "sab": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B (1h30): B (1h) + FI (30 min - Ex: 3x2 min de ritmo forte)",
+          "op3": "B (2h): B (2h)",
+          "op4": "Prova Curta/Simulação (2h30): Prova (1h a 1h30) + L (30 min - 1h)"
+        },
+        "dom": {
+          "op1": "D: Descanso Completo",
+          "op2": "L (1h): L (1h) + Alongamento (30 min)",
+          "op3": "B (1h30): B (1h) + L (30 min)",
+          "op4": "B (2h): B (2h)"
+        }
+      },
+      "Resistencia": {
+        "seg": {
+          "op1": "L (1h): L (45 min) + Alongamento (15 min)",
+          "op2": "F.C. (1h30): F.C. (1h) + L (30 min)",
+          "op3": "B.C. (2h): B.C. (1h45) + L (15 min)",
+          "op4": "B.C. (2h30): B.C. (2h) + F.C. (30 min - Foco em core)"
+        },
+        "ter": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B.C. (1h30): B.C. (1h30)",
+          "op3": "B.V. (2h): B.V. (1h45) + L (15 min)",
+          "op4": "B.C. (2h30): B.C. (2h30)"
+        },
+        "qua": {
+          "op1": "F.C. (1h): F.C. (1h)",
+          "op2": "L (1h30): L (1h30)",
+          "op3": "B.C. (2h): B.C. (1h30) + L (30 min)",
+          "op4": "B.V. (2h30): B.V. (2h) + F.C. (30 min)"
+        },
+        "qui": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B.C. (1h30): B.C. (1h30)",
+          "op3": "B.C. (2h): B.C. (2h)",
+          "op4": "B.V. (2h30): B.V. (2h15) + L (15 min)"
+        },
+        "sex": {
+          "op1": "L (1h): L (1h)",
+          "op2": "F.C. (1h30): F.C. (1h) + Alongamento (30 min)",
+          "op3": "B.C. (2h): B.C. (1h30) + L (30 min)",
+          "op4": "B.C. (2h30): B.C. (2h) + F.C. (30 min)"
+        },
+        "sab": {
+          "op1": "B.C. (1h30): B.C. (1h30)",
+          "op2": "B.C. (2h30): B.C. (2h30)",
+          "op3": "B.C. (3h): B.C. (2h45) + L (15 min)",
+          "op4": "B.C. (3h30): B.C. (3h) + L (30 min)"
+        },
+        "dom": {
+          "op1": "D: Descanso Completo",
+          "op2": "L (1h): L (1h) + Alongamento (30 min)",
+          "op3": "B.C. (1h30): B.C. (1h) + L (30 min)",
+          "op4": "B.C. (2h): B.C. (2h)"
+        }
+      }
+    }
+  },
+  "intermediario": {
+    "Ciclismo": {
+      "Performance": {
+        "seg": {
+          "op1": "L (1h): L (45 min) + Alongamento/Mobilidade (15 min)",
+          "op2": "F.C. (1h30): F.C. (1h - Foco em potência e core) + L (30 min)",
+          "op3": "B (2h): B (1h30) + TR (30 min - Trechos de ritmo)",
+          "op4": "B (2h30): B (2h) + FS (30 min - Ex: 5x1 min sprints em subida)"
+        },
+        "ter": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B (1h30): B (1h30)",
+          "op3": "INT (1h45): INT (30 min - Ex: 4x3 min VO2 Max com 3 min descanso) + L (1h15)",
+          "op4": "TL (2h15): TL (45 min - Bloco de 20-30 min contínuos) + B (1h30)"
+        },
+        "qua": {
+          "op1": "F.C. (1h): F.C. (1h - Foco em estabilidade e prevenção)",
+          "op2": "L (1h30): L (1h30)",
+          "op3": "B (2h): B (1h30) + TR (30 min - Trechos de ritmo)",
+          "op4": "FS (2h30): FS (45 min - Ex: 6x30s sprints máximos) + B (1h45)"
+        },
+        "qui": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B (1h30): B (1h30)",
+          "op3": "INT (1h45): INT (30 min - Ex: 8x1 min sprint com 1 min descanso) + L (1h15)",
+          "op4": "TL (2h15): TL (45 min - Bloco de 30-40 min contínuos) + B (1h30)"
+        },
+        "sex": {
+          "op1": "L (1h): L (1h)",
+          "op2": "F.C. (1h30): F.C. (1h) + Alongamento (30 min)",
+          "op3": "B (2h): B (1h30) + L (30 min)",
+          "op4": "B (2h30): B (2h) + TR (30 min - Trechos de ritmo)"
+        },
+        "sab": {
+          "op1": "L (1h): L (1h)",
+          "op2": "B (1h30): B (1h) + FS (30 min - Ex: 4x20s sprints com 1 min descanso)",
+          "op3": "TL (2h): TL (1h - Bloco de 40-50 min contínuos) + B (1h)",
+          "op4": "Simulação de Prova/Prova (2h30 - 3h): Simulação (1h30 a 2h) + L (1h)"
+        },
+        "dom": {
+          "op1": "D: Descanso Completo",
+          "op2": "L (1h): L (1h) + Alongamento (30 min)",
+          "op3": "B (1h30): B (1h) + L (30 min)",
+          "op4": "B (2h): B (2h)"
+        }
+      },
+      "Resistencia": {
+        "seg": {
+          "op1": "L (1h): L (45 min) + Alongamento/Mobilidade (15 min)",
+          "op2": "F.C. (1h30): F.C. (1h - Foco em resistência muscular e core) + L (30 min)",
+          "op3": "B.L. (2h30): B.L. (2h) + L (30 min)",
+          "op4": "B.L. (3h): B.L. (2h30) + B.E. (30 min)"
+        },
+        "ter": {
+          "op1": "L (1h): L (1h)",
+          "op2": "L (1h30): L (1h30)",
+          "op3": "B.L. (2h30): B.L. (2h15) + L (15 min)",
+          "op4": "B.E.S. (3h): B.E.S. (2h30) + L (30 min)"
+        },
+        "qua": {
+          "op1": "F.C. (1h): F.C. (1h - Foco em estabilidade e prevenção de dores)",
+          "op2": "L (1h30): L (1h30)",
+          "op3": "B.L. (2h30): B.L. (2h) + L (30 min)",
+          "op4": "FS.R. (3h): FS.R. (1h - Ex: 4x10 min subida longa em cadência controlada) + B.L. (2h)"
+        },
+        "qui": {
+          "op1": "L (1h): L (1h)",
+          "op2": "L (1h30): L (1h30)",
+          "op3": "B.L. (2h30): B.L. (2h30)",
+          "op4": "B.E.S. (3h): B.E.S. (2h45) + L (15 min)"
+        },
+        "sex": {
+          "op1": "L (1h): L (1h)",
+          "op2": "F.C. (1h30): F.C. (1h) + Alongamento (30 min)",
+          "op3": "B.L. (2h): B.L. (1h30) + L (30 min)",
+          "op4": "B.L. (2h30): B.L. (2h) + FS.R. (30 min - Ex: 3x10 min ritmo forte no plano)"
+        },
+        "sab": {
+          "op1": "B.L. (1h30): B.L. (1h30)",
+          "op2": "B.L. (2h30): B.L. (2h30)",
+          "op3": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op4": "B.L. (3h30): B.L. (3h) + L (30 min)"
+        },
+        "dom": {
+          "op1": "D: Descanso Completo",
+          "op2": "L (1h): L (1h) + Alongamento (30 min)",
+          "op3": "B.L. (1h30): B.L. (1h) + L (30 min)",
+          "op4": "B.L. (2h): B.L. (2h)"
+        }
+      }
+    }
+  },
+  "avancado": {
+    "Ciclismo": {
+      "Performance": {
+        "seg": {
+          "op1": "B.P. (2h): B.P. (1h45) + L (15 min)",
+          "op2": "TL.C. (2h30): TL.C. (1h15 - Bloco de 30-45 min contínuos) + L (1h15)",
+          "op3": "F.A. (2h): F.A. (1h - Foco em potência e core) + L (1h)",
+          "op4": "HIIT.P. (2h30): HIIT.P. (45 min - Ex: 5x4 min VO2 Max com 4 min de recuperação ativa) + B.P. (1h45)"
+        },
+        "ter": {
+          "op1": "L (2h): L (2h)",
+          "op2": "B.P. (2h30): B.P. (2h) + L (30 min)",
+          "op3": "FS.E. (3h): FS.E. (45 min - Ex: 8x30s sprints máximos com 2 min recuperação) + B.P. (2h15)",
+          "op4": "TR.C. (3h30): TR.C. (2h30 - Trechos de ritmo de prova) + L (1h)"
+        },
+        "qua": {
+          "op1": "F.A. (2h): F.A. (1h30 - Foco em estabilidade e prevenção) + L (30 min)",
+          "op2": "L (2h30): L (2h30)",
+          "op3": "B.P. (3h): B.P. (2h45) + L (15 min)",
+          "op4": "TL.C. (3h30): TL.C. (1h30 - Bloco de 40-50 min contínuos) + B.P. (2h)"
+        },
+        "qui": {
+          "op1": "L (2h): L (2h)",
+          "op2": "B.P. (2h30): B.P. (2h) + L (30 min)",
+          "op3": "HIIT.P. (3h): HIIT.P. (45 min - Ex: 10x1 min sprint on / 1 min off) + B.P. (2h15)",
+          "op4": "FS.E. (3h30): FS.E. (45 min - Ex: 6x1 min sprint em subida) + B.P. (2h45)"
+        },
+        "sex": {
+          "op1": "L (2h): L (2h)",
+          "op2": "F.A. (2h30): F.A. (1h30 - Foco em ativação muscular ou recuperação específica) + Alongamento (1h)",
+          "op3": "B.P. (3h): B.P. (2h45) + L (15 min)",
+          "op4": "TR.C. (3h30): TR.C. (2h45 - Trechos de ritmo de prova) + L (45 min)"
+        },
+        "sab": {
+          "op1": "L (2h): L (1h30) + Aquecimento/Taper (30 min)",
+          "op2": "TL.C. (2h30): TL.C. (1h - Bloco de 40-50 min contínuos) + B.P. (1h30)",
+          "op3": "B.P. (3h30): B.P. (2h) + TR.C. (1h30 - Simulação de final de prova)",
+          "op4": "TR.C. (4h): TR.C. (3h) + L (1h)"
+        },
+        "dom": {
+          "op1": "TR.C. (3h): TR.C. (2h30 - Simulação de prova completa) + L (30 min)",
+          "op2": "B.P. (4h): B.P. (3h) + TR.C. (1h - Simulação de fuga ou final de prova)",
+          "op3": "Simulação de Prova/Prova (5h): Simulação (3h30 a 4h) + B.P. (1h) + L (30 min)",
+          "op4": "TR.C. (6h): TR.C. (4h) + HIIT.P. (1h - Blocos de alta intensidade dispersos) + L (1h)"
+        }
+      },
+      "Resistencia": {
+        "seg": {
+          "op1": "L (2h): L (1h45) + Mobilidade/Alongamento (15 min)",
+          "op2": "F.A.E. (2h30): F.A.E. (1h30 - Foco em resistência muscular e core) + L (1h)",
+          "op3": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op4": "B.E.S. (3h30): B.E.S. (3h) + L (30 min)"
+        },
+        "ter": {
+          "op1": "L (2h): L (2h)",
+          "op2": "T.E. (2h30): T.E. (1h30) + L (1h)",
+          "op3": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op4": "FS.L. (3h30): FS.L. (1h30 - Ex: 4x15 min subida longa em cadência controlada) + B.L. (2h)"
+        },
+        "qua": {
+          "op1": "F.A.E. (2h): F.A.E. (1h30 - Foco em prevenção de dores em pedais longos) + L (30 min)",
+          "op2": "L (2h30): L (2h30)",
+          "op3": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op4": "B.E.S. (3h30): B.E.S. (3h15) + L (15 min)"
+        },
+        "qui": {
+          "op1": "L (2h): L (2h)",
+          "op2": "T.E. (2h30): T.E. (1h30) + L (1h)",
+          "op3": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op4": "FS.L. (3h30): FS.L. (1h30 - Ex: 3x20 min ritmo forte no plano em marcha pesada) + B.L. (2h)"
+        },
+        "sex": {
+          "op1": "L (2h): L (2h)",
+          "op2": "F.A.E. (2h30): F.A.E. (1h30 - Foco em recuperação ou mobilidade pré-longão) + Alongamento (1h)",
+          "op3": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op4": "B.L. (3h30): B.L. (3h15) + L (15 min)"
+        },
+        "sab": {
+          "op1": "L (2h): L (1h30) + Alongamento/Mobilidade (30 min)",
+          "op2": "B.L. (3h): B.L. (2h45) + L (15 min)",
+          "op3": "B.L. (3h30): B.L. (3h) + B.E.S. (30 min)",
+          "op4": "B.L. (4h): B.L. (3h30) + T.E. (30 min)"
+        },
+        "dom": {
+          "op1": "B.E.S. (3h): B.E.S. (2h45) + L (15 min)",
+          "op2": "B.L. (4h): B.L. (3h30) + B.E.S. (30 min)",
+          "op3": "B.XL. (5h): B.XL. (4h30) + L (30 min)",
+          "op4": "Pedal Ultra Longo de Resistência/Simulação de Desafio (6h): Pedal (5h a 5h30) + L (30 min)"
+        }
+      }
+    }
+  }
+}
