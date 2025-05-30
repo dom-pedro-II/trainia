@@ -20,7 +20,7 @@ class _PersonalizedTrainingScreenState
   String? erro;
 
   final String apiKey =
-      'AIzaSyCkyczA47f9PpcKcP20dHU2AKZviU9emZg'; // Substitua com sua chave da API Gemini
+      'sua api key aqui'; // Substitua com sua chave da API Gemini
 
   @override
   void initState() {
